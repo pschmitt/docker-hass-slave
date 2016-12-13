@@ -12,7 +12,7 @@ import os
 
 
 HASS_HOSTNAME = os.environ.get('HASS_HOSTNAME', 'example.com')
-HASS_PORT = os.environ.get('HASS_PORT', 8123)
+HASS_PORT = int(os.environ.get('HASS_PORT', 8123))
 HASS_PASSWORD = os.environ.get('HASS_PASSWORD', 'password')
 HASS_USE_SSL = bool(os.environ.get('HASS_USE_SSL', False))
 
