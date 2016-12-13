@@ -4,7 +4,7 @@
 '''
 Source:
 https://home-assistant.io/developers/multiple_instances/
-''''
+'''
 
 import homeassistant.remote as remote
 import homeassistant.bootstrap as bootstrap
